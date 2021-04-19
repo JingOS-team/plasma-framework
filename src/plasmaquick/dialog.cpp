@@ -131,6 +131,7 @@ public:
     void setupWaylandIntegration();
 
     void applyType();
+    void setDisplay(bool display);
 
     Dialog *q;
     Plasma::Types::Location location;
@@ -142,6 +143,7 @@ public:
     QPointer<KWayland::Client::PlasmaShellSurface> shellSurface;
 #endif
 
+    bool isDisplay = true;
     QRect cachedGeometry;
     bool hasMask;
     Dialog::WindowType type;
@@ -778,6 +780,16 @@ void DialogPrivate::applyType()
 #endif
 }
 
+void DialogPrivate::setDisplay(bool display)
+{
+#if HAVE_KWAYLAND
+    if (shellSurface) {
+        isDisplay = display;
+        shellSurface->setVisible(display);
+    }
+#endif
+}
+
 
 Dialog::Dialog(QQuickItem *parent)
     : QQuickWindow(parent ? parent->window() : nullptr),
@@ -1407,6 +1419,20 @@ void Dialog::setVisible(bool visible)
         //signal will be emitted and proxied from the QQuickWindow code
     } else {
         Q_EMIT visibleChangedProxy();
+    }
+}
+
+bool Dialog::isDisplay() const
+{
+    return d->isDisplay;
+}
+
+void Dialog::setDisplay(bool display)
+{
+    if (d->isDisplay != display) {
+        d->setDisplay(display);
+
+        emit displayChanged();
     }
 }
 

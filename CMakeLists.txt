@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(KF5_VERSION "5.78.0") # handled by release scripts
-set(KF5_DEP_VERSION "5.77.0") # handled by release scripts
-project(Plasma VERSION ${KF5_VERSION})
+set(KF_VERSION "5.79.0") # handled by release scripts
+set(KF_DEP_VERSION "5.79.0") # handled by release scripts
+project(Plasma VERSION ${KF_VERSION})
 
 # ECM setup
 include(FeatureSummary)
-find_package(ECM 5.77.0  NO_MODULE)
+find_package(ECM 5.79.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
 feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
@@ -42,7 +42,7 @@ set (REQUIRED_QT_VERSION 5.14.0)
 
 find_package(Qt5 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS Quick Gui Sql Qml Svg QuickControls2)
 
-find_package(KF5 ${KF5_DEP_VERSION} REQUIRED
+find_package(KF5 ${KF_DEP_VERSION} REQUIRED
     COMPONENTS
         Activities
         Archive
@@ -201,7 +201,7 @@ configure_package_config_file(
   "${CMAKE_CURRENT_SOURCE_DIR}/KF5PlasmaConfig.cmake.in"
   "${CMAKE_CURRENT_BINARY_DIR}/KF5PlasmaConfig.cmake"
   INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
-  PATH_VARS  KF5_INCLUDE_INSTALL_DIR CMAKE_INSTALL_PREFIX
+  PATH_VARS  CMAKE_INSTALL_PREFIX
 )
 
 install(FILES

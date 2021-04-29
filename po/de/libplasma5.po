@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-19 02:18+0100\n"
+"POT-Creation-Date: 2021-01-20 02:29+0100\n"
 "PO-Revision-Date: 2020-09-09 13:11+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -39,13 +39,13 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Weitere"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:147
+#: declarativeimports/calendar/qml/DaysCalendar.qml:152
 #, kde-format
 msgctxt "Reset calendar to today"
 msgid "Today"
 msgstr "Heute"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:149
+#: declarativeimports/calendar/qml/DaysCalendar.qml:154
 #, kde-format
 msgid "Reset calendar to today"
 msgstr "Kalender auf den heutigen Tag zurücksetzen"
@@ -591,12 +591,18 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Ungültiger Dienst (null), es sind keine Operationen möglich."
 
-#: plasmaquick/appletquickitem.cpp:600
+#: plasmaquick/appletquickitem.cpp:596
+#, fuzzy, kde-format
+#| msgid "Unknown Widget"
+msgid "Unknown Applet"
+msgstr "Unbekanntes Miniprogramm"
+
+#: plasmaquick/appletquickitem.cpp:611
 #, kde-format
 msgid "Error loading QML file: %1"
 msgstr "Fehler beim Laden der QML-Datei: %1"
 
-#: plasmaquick/appletquickitem.cpp:602
+#: plasmaquick/appletquickitem.cpp:613
 #, kde-format
 msgid "Error loading Applet: package inexistent. %1"
 msgstr "Fehler beim Laden des Miniprogramms: Paket existiert nicht. %1"

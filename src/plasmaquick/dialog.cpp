@@ -904,7 +904,7 @@ void Dialog::setMainItem(QQuickItem *mainItem)
         }
 
         //if this is called in Component.onCompleted we have to wait a loop the item is added to a scene
-        emit mainItemChanged();
+        Q_EMIT mainItemChanged();
     }
 }
 
@@ -925,7 +925,7 @@ void Dialog::setVisualParent(QQuickItem *visualParent)
     }
 
     d->visualParent = visualParent;
-    emit visualParentChanged();
+    Q_EMIT visualParentChanged();
     if (visualParent) {
         if (visualParent->window()) {
             setTransientParent(visualParent->window());
@@ -1079,7 +1079,7 @@ void Dialog::setLocation(Plasma::Types::Location location)
         return;
     }
     d->location = location;
-    emit locationChanged();
+    Q_EMIT locationChanged();
 
     if (d->mainItem) {
         d->syncToMainItemSize();
@@ -1102,7 +1102,7 @@ void Dialog::setFramelessFlags(Qt::WindowFlags flags)
         flags |= Qt::Dialog;
     setFlags(Qt::FramelessWindowHint | flags);
     d->applyType();
-    emit flagsChanged();
+    Q_EMIT flagsChanged();
 }
 
 void Dialog::adjustGeometry(const QRect &geom)
@@ -1152,7 +1152,7 @@ void Dialog::setType(WindowType type)
 
     d->type = type;
     d->applyType();
-    emit typeChanged();
+    Q_EMIT typeChanged();
 }
 
 Dialog::WindowType Dialog::type() const
@@ -1190,7 +1190,7 @@ void Dialog::focusOutEvent(QFocusEvent *ev)
 
         if (viewClicked || (!parentHasFocus && !childHasFocus)) {
             setVisible(false);
-            emit windowDeactivated();
+            Q_EMIT windowDeactivated();
         }
     }
 
@@ -1385,7 +1385,7 @@ void Dialog::setHideOnWindowDeactivate(bool hide)
         return;
     }
     d->hideOnWindowDeactivate = hide;
-    emit hideOnWindowDeactivateChanged();
+    Q_EMIT hideOnWindowDeactivateChanged();
 }
 
 bool Dialog::isOutputOnly() const
@@ -1399,7 +1399,7 @@ void Dialog::setOutputOnly(bool outputOnly)
         return;
     }
     d->outputOnly = outputOnly;
-    emit outputOnlyChanged();
+    Q_EMIT outputOnlyChanged();
 }
 
 void Dialog::setVisible(bool visible)
@@ -1418,7 +1418,7 @@ void Dialog::setVisible(bool visible)
         QQuickWindow::setVisible(visible);
         //signal will be emitted and proxied from the QQuickWindow code
     } else {
-        emit visibleChangedProxy();
+        Q_EMIT visibleChangedProxy();
     }
 }
 
@@ -1432,7 +1432,7 @@ void Dialog::setDisplay(bool display)
     if (d->isDisplay != display) {
         d->setDisplay(display);
 
-        emit displayChanged();
+        Q_EMIT displayChanged();
     }
 }
 
@@ -1457,7 +1457,7 @@ void Dialog::setBackgroundHints(Dialog::BackgroundHints hints)
 
     d->backgroundHints = hints;
     d->updateTheme();
-    emit backgroundHintsChanged();
+    Q_EMIT backgroundHintsChanged();
 }
 
 }

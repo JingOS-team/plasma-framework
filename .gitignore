@@ -22,3 +22,6 @@ random_seed
 CMakeLists.txt.user*
 *.unc-backup*
 .cmake/
+cmake-build-debug*
+.idea
+/.clang-format

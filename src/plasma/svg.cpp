@@ -192,7 +192,7 @@ void SvgRectsCache::insert(uint id, const QString &filePath, const QRectF &rect,
         m_invalidElements[filePath] << id;
         imageGroup.writeEntry("Invalidelements", m_invalidElements[filePath].values());
     }
-    m_configSyncTimer->start();
+    QMetaObject::invokeMethod(m_configSyncTimer, QOverload<>::of(&QTimer::start));
 }
 
 bool SvgRectsCache::findElementRect(Plasma::SvgPrivate::CacheId cacheId, QRectF &rect)
@@ -229,7 +229,7 @@ void SvgRectsCache::loadImageFromCache(const QString &path, uint lastModified)
 
     if (lastModified > savedTime) {
         imageGroup.deleteGroup();
-        m_configSyncTimer->start();
+        QMetaObject::invokeMethod(m_configSyncTimer, QOverload<>::of(&QTimer::start));
         return;
     }
 
@@ -249,7 +249,7 @@ void SvgRectsCache::dropImageFromCache(const QString &path)
 {
     KConfigGroup imageGroup(m_svgElementsCache, path);
     imageGroup.deleteGroup();
-    m_configSyncTimer->start();
+    QMetaObject::invokeMethod(m_configSyncTimer, QOverload<>::of(&QTimer::start));
 }
 
 QList<QSize> SvgRectsCache::sizeHintsForId(const QString &path, const QString &id)
@@ -290,7 +290,7 @@ void SvgRectsCache::insertSizeHintForId(const QString &path, const QString &id, 
     m_sizeHintsForId[path % id].append(size);
     KConfigGroup imageGroup(m_svgElementsCache, path);
     imageGroup.writeEntry(id, sizeListToString(m_sizeHintsForId[path % id]));
-    m_configSyncTimer->start();
+    QMetaObject::invokeMethod(m_configSyncTimer, QOverload<>::of(&QTimer::start));
 }
 
 QString SvgRectsCache::iconThemePath()
@@ -310,7 +310,7 @@ void SvgRectsCache::setIconThemePath(const QString &path)
     m_iconThemePath = path;
     KConfigGroup imageGroup(m_svgElementsCache, QStringLiteral("General"));
     imageGroup.writeEntry(QStringLiteral("IconThemePath"), path);
-    m_configSyncTimer->start();
+    QMetaObject::invokeMethod(m_configSyncTimer, QOverload<>::of(&QTimer::start));
 }
 
 void SvgRectsCache::expireCache(const QString &path)
@@ -335,7 +335,7 @@ void SvgRectsCache::setNaturalSize(const QString &path, qreal scaleFactor, const
 
     // FIXME: needs something faster, perhaps even sprintf
     imageGroup.writeEntry(QStringLiteral("NaturalSize_") % QString::number(scaleFactor), size);
-    m_configSyncTimer->start();
+    QMetaObject::invokeMethod(m_configSyncTimer, QOverload<>::of(&QTimer::start));
 }
 
 QSizeF SvgRectsCache::naturalSize(const QString &path, qreal scaleFactor)
@@ -360,7 +360,7 @@ void SvgRectsCache::updateLastModified(const QString &filePath, unsigned int las
 {
     KConfigGroup imageGroup(m_svgElementsCache, filePath);
     imageGroup.writeEntry("LastModified", lastModified);
-    m_configSyncTimer->start();    
+    QMetaObject::invokeMethod(m_configSyncTimer, QOverload<>::of(&QTimer::start));
 }
 
 SvgPrivate::SvgPrivate(Svg *svg)
@@ -446,7 +446,7 @@ bool SvgPrivate::setImagePath(const QString &imagePath)
     fromCurrentTheme = !inIconTheme && isThemed && actualTheme()->currentThemeHasImage(imagePath);
 
     if (fromCurrentTheme != oldFromCurrentTheme) {
-        emit q->fromCurrentThemeChanged(fromCurrentTheme);
+        Q_EMIT q->fromCurrentThemeChanged(fromCurrentTheme);
     }
 
     if (inIconTheme) {
@@ -490,7 +490,7 @@ bool SvgPrivate::setImagePath(const QString &imagePath)
     }
 
     q->resize();
-    emit q->imagePathChanged();
+    Q_EMIT q->imagePathChanged();
 
     return updateNeeded;
 }
@@ -842,7 +842,7 @@ void SvgPrivate::themeChanged()
     q->resize();
 
     //qCDebug(LOG_PLASMA) << themePath << ">>>>>>>>>>>>>>>>>> theme changed";
-    emit q->repaintNeeded();
+    Q_EMIT q->repaintNeeded();
 }
 
 void SvgPrivate::colorsChanged()
@@ -854,7 +854,7 @@ void SvgPrivate::colorsChanged()
     eraseRenderer();
     qCDebug(LOG_PLASMA) << "repaint needed from colorsChanged";
 
-    emit q->repaintNeeded();
+    Q_EMIT q->repaintNeeded();
 }
 
 QHash<QString, SharedSvgRenderer::Ptr> SvgPrivate::s_renderers;
@@ -887,7 +887,7 @@ void Svg::setDevicePixelRatio(qreal ratio)
 
     d->devicePixelRatio = floor(ratio);
 
-    emit repaintNeeded();
+    Q_EMIT repaintNeeded();
 }
 
 qreal Svg::devicePixelRatio()
@@ -918,8 +918,8 @@ void Svg::setScaleFactor(qreal ratio)
 
     d->size = d->naturalSize;
 
-    emit repaintNeeded();
-    emit sizeChanged();
+    Q_EMIT repaintNeeded();
+    Q_EMIT sizeChanged();
 }
 
 qreal Svg::scaleFactor() const
@@ -935,8 +935,8 @@ void Svg::setColorGroup(Plasma::Theme::ColorGroup group)
 
     d->colorGroup = group;
     d->renderer = nullptr;
-    emit colorGroupChanged();
-    emit repaintNeeded();
+    Q_EMIT colorGroupChanged();
+    Q_EMIT repaintNeeded();
 }
 
 Plasma::Theme::ColorGroup Svg::colorGroup() const
@@ -1017,7 +1017,7 @@ void Svg::resize(const QSizeF &size)
     }
 
     d->size = size;
-    emit sizeChanged();
+    Q_EMIT sizeChanged();
 }
 
 void Svg::resize()
@@ -1028,7 +1028,7 @@ void Svg::resize()
     }
 
     d->size = d->naturalSize;
-    emit sizeChanged();
+    Q_EMIT sizeChanged();
 }
 
 QSize Svg::elementSize(const QString &elementId) const
@@ -1083,7 +1083,7 @@ bool Svg::containsMultipleImages() const
 void Svg::setImagePath(const QString &svgFilePath)
 {
     if (d->setImagePath(svgFilePath)) {
-        emit repaintNeeded();
+        Q_EMIT repaintNeeded();
     }
 }
 
@@ -1114,7 +1114,7 @@ void Svg::setUseSystemColors(bool system)
     }
 
     d->useSystemColors = system;
-    emit repaintNeeded();
+    Q_EMIT repaintNeeded();
 }
 
 bool Svg::useSystemColors() const
@@ -1150,8 +1150,8 @@ void Svg::setStatus(Plasma::Svg::Status status)
 
     d->status = status;
     d->eraseRenderer();
-    emit statusChanged(status);
-    emit repaintNeeded();
+    Q_EMIT statusChanged(status);
+    Q_EMIT repaintNeeded();
 }
 
 Svg::Status Svg::status() const

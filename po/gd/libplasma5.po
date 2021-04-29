@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-19 02:18+0100\n"
+"POT-Creation-Date: 2021-01-20 02:29+0100\n"
 "PO-Revision-Date: 2016-04-30 12:08+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -43,13 +43,13 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Eile"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:147
+#: declarativeimports/calendar/qml/DaysCalendar.qml:152
 #, kde-format
 msgctxt "Reset calendar to today"
 msgid "Today"
 msgstr "An-diugh"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:149
+#: declarativeimports/calendar/qml/DaysCalendar.qml:154
 #, kde-format
 msgid "Reset calendar to today"
 msgstr "Ath-suidhich am mìosachan air an-diugh"
@@ -604,12 +604,18 @@ msgstr ""
 "Seirbheis mhì-dhligheach (null), chan urrainn dhuinn obrachadh sam bith a "
 "dhèanamh."
 
-#: plasmaquick/appletquickitem.cpp:600
+#: plasmaquick/appletquickitem.cpp:596
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgid "Unknown Applet"
+msgstr "Chan eil fhios"
+
+#: plasmaquick/appletquickitem.cpp:611
 #, kde-format
 msgid "Error loading QML file: %1"
 msgstr "Mearachd a' luchdadh faidhle QML: %1"
 
-#: plasmaquick/appletquickitem.cpp:602
+#: plasmaquick/appletquickitem.cpp:613
 #, kde-format
 msgid "Error loading Applet: package inexistent. %1"
 msgstr "Mearachd a' luchdadh aplaid: chan eil a' phacaid ann. %1"

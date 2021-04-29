@@ -1432,7 +1432,7 @@ void Dialog::setDisplay(bool display)
     if (d->isDisplay != display) {
         d->setDisplay(display);
 
-        emit displayChanged();
+        Q_EMIT displayChanged();
     }
 }
 

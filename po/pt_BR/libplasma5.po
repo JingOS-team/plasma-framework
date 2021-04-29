@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2013, 2014, 2015, 2016, 2018, 2019.
-# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2018, 2020.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2018, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: libplasma5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-19 02:18+0100\n"
-"PO-Revision-Date: 2020-11-06 15:39-0300\n"
+"POT-Creation-Date: 2021-01-20 02:29+0100\n"
+"PO-Revision-Date: 2021-01-11 14:29-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -45,13 +45,13 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Outros"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:147
+#: declarativeimports/calendar/qml/DaysCalendar.qml:152
 #, kde-format
 msgctxt "Reset calendar to today"
 msgid "Today"
 msgstr "Hoje"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:149
+#: declarativeimports/calendar/qml/DaysCalendar.qml:154
 #, kde-format
 msgid "Reset calendar to today"
 msgstr "Redefine o calendário para hoje"
@@ -609,12 +609,17 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Serviço inválido (null), não pode executar quaisquer operações."
 
-#: plasmaquick/appletquickitem.cpp:600
+#: plasmaquick/appletquickitem.cpp:596
+#, kde-format
+msgid "Unknown Applet"
+msgstr "Miniaplicativo desconhecido"
+
+#: plasmaquick/appletquickitem.cpp:611
 #, kde-format
 msgid "Error loading QML file: %1"
 msgstr "Ocorreu um erro ao carregar o arquivo QML: %1"
 
-#: plasmaquick/appletquickitem.cpp:602
+#: plasmaquick/appletquickitem.cpp:613
 #, kde-format
 msgid "Error loading Applet: package inexistent. %1"
 msgstr "Erro ao carregar o miniaplicativo: O pacote não existe. %1"

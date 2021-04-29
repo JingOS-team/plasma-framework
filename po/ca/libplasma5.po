@@ -1,16 +1,16 @@
 # Translation of libplasma5.po to Catalan
-# Copyright (C) 2014-2020 This_file_is_part_of_KDE
+# Copyright (C) 2014-2021 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep Ma. Ferrer <txemaq@gmail.com>, 2014, 2015, 2016, 2018, 2019, 2020.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2014, 2015, 2016, 2018, 2019, 2020, 2021.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2014, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-framework\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-19 02:18+0100\n"
-"PO-Revision-Date: 2020-12-09 18:14+0100\n"
+"POT-Creation-Date: 2021-01-20 02:29+0100\n"
+"PO-Revision-Date: 2021-01-03 13:44+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -45,13 +45,13 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Altres"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:147
+#: declarativeimports/calendar/qml/DaysCalendar.qml:152
 #, kde-format
 msgctxt "Reset calendar to today"
 msgid "Today"
 msgstr "Avui"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:149
+#: declarativeimports/calendar/qml/DaysCalendar.qml:154
 #, kde-format
 msgid "Reset calendar to today"
 msgstr "Restaura el calendari a avui"
@@ -594,12 +594,17 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Servei no vàlid (nul), no pot executar cap operació."
 
-#: plasmaquick/appletquickitem.cpp:600
+#: plasmaquick/appletquickitem.cpp:596
+#, kde-format
+msgid "Unknown Applet"
+msgstr "Miniaplicació desconeguda"
+
+#: plasmaquick/appletquickitem.cpp:611
 #, kde-format
 msgid "Error loading QML file: %1"
 msgstr "Error en carregar el fitxer QML: %1"
 
-#: plasmaquick/appletquickitem.cpp:602
+#: plasmaquick/appletquickitem.cpp:613
 #, kde-format
 msgid "Error loading Applet: package inexistent. %1"
 msgstr "Error en carregar la miniaplicació: Paquet inexistent. %1"

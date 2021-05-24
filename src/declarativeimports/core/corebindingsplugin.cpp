@@ -28,6 +28,7 @@
 #include "serviceoperationstatus.h"
 #include "colorscope.h"
 #include "quicktheme.h"
+#include "passwdtype.h"
 
 #include "tooltip.h"
 #include "units.h"
@@ -116,6 +117,8 @@ QT_WARNING_POP
     qmlRegisterType<IconItem>(uri, 2, 0, "IconItem");
 
     qmlRegisterType<Plasma::WindowThumbnail>(uri, 2, 0, "WindowThumbnail");
+    qmlRegisterType<PassWDType>(uri, 2, 0, "PassWDType");
+
 }
 
 

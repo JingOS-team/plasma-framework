@@ -10,7 +10,7 @@ QString PassWDType::readPassWdTyp(){
     auto kdeglobals = KSharedConfig::openConfig(QString(QStringLiteral("kdeglobals")));
     KConfigGroup cfg(kdeglobals, QString(QStringLiteral("LockScreen")));
 
-    return cfg.readEntry(QString(QStringLiteral("defaultType")), QString());
+    return cfg.readEntry(QString(QStringLiteral("passwordType")), QString());
 }
 
 

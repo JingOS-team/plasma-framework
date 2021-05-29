@@ -22,6 +22,7 @@ set(corebindings_SRCS
     iconitem.cpp
     units.cpp
     windowthumbnail.cpp
+    passwdtype.cpp
     )
 
 qt5_add_resources(corebindings_SRCS shaders.qrc)

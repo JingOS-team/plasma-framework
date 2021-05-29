@@ -1,12 +1,21 @@
 # Plasma Framework
-
-Foundational libraries, components, and tools of the Plasma workspaces
+Plasma-Framework is a middleware for JingOS.
+It provides Foundational libraries, components, and tools of the Plasma workspaces
 
 ## Introduction
 The plasma framework provides the following:
 - QML components
 - A C++ library: libplasma
 - Script engines
+
+## Depends
+Plasma-Framework depends the following:
+- Qt5
+- KF5
+- OpenGL
+- X11
+- cmake
+
 
 ## QML components
 ### org.kde.plasma.core
@@ -31,6 +40,25 @@ This C++ library provides:
 
 See @ref libplasma.
 
+## Building and Installing
+
+```sh
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/path/to/prefix ..
+make
+make install # use sudo if necessary
+```
+
+Replace `/path/to/prefix` to your installation prefix.
+Default is `/usr/local`.
+
 ## Script engines
 Provides support to create applets or containments in various scripting languages.
+
+## Links
+* Home: www.jingos.com
+* Project page: https://github.com/JingOS-team/plasma-framework
+* File issues: https://github.com/JingOS-team/plasma-framework/issues
+* Development channel:  www.jingos.com
 

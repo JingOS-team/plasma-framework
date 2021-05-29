@@ -1,5 +1,7 @@
 # Plasma Framework
-Plasma-Framework is a middleware for JingOS.
+
+Plasma-Framework is based on KDE/plasma-framework [github](https://github.com/KDE/plasma-phone-components)
+it's a middleware for JingOS.
 It provides Foundational libraries, components, and tools of the Plasma workspaces
 
 ## Introduction

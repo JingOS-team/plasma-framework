@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 set(KF_VERSION "5.79.0") # handled by release scripts
-set(KF_DEP_VERSION "5.79.0") # handled by release scripts
+set(KF_DEP_VERSION "5.77.0") # handled by release scripts
 project(Plasma VERSION ${KF_VERSION})
 
 # ECM setup

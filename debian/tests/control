@@ -1,0 +1,19 @@
+Tests: testsuite
+Depends: breeze-icon-theme,
+         cmake,
+         dbus (>= 1.8),
+         debhelper,
+         hicolor-icon-theme,
+         libkf5globalaccel-bin,
+         libkf5service-bin,
+         libqt5sql5-sqlite,
+         openbox,
+         qml-module-qtquick2,
+         xauth,
+         xvfb,
+         @
+Restrictions: build-needed, allow-stderr
+
+Tests: acc
+Depends: dh-acc, exuberant-ctags, @
+Restrictions: allow-stderr

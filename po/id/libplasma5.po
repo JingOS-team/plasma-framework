@@ -2,14 +2,14 @@
 # Copyright (C) 2010 This_file_is_part_of_KDE
 # This file is distributed under the same license as the plasmapkg package.
 # Andhika Padmawan <andhika.padmawan@gmail.com>, 2010-2014.
-# Wantoyo <wantoyek@gmail.com>, 2017, 2018, 2019, 2021.
+# Wantoyo <wantoyek@gmail.com>, 2017, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-20 02:29+0100\n"
-"PO-Revision-Date: 2021-01-04 12:22+0700\n"
+"POT-Creation-Date: 2020-12-19 02:18+0100\n"
+"PO-Revision-Date: 2019-11-09 21:00+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #: declarativeimports/calendar/eventdatadecorator.cpp:51
 #, kde-format
@@ -35,7 +35,7 @@ msgstr "Peristiwa"
 #, kde-format
 msgctxt "Agenda listview section title"
 msgid "Todo"
-msgstr "Kegiatan"
+msgstr "Perayaan"
 
 #: declarativeimports/calendar/eventdatadecorator.cpp:57
 #, kde-format
@@ -43,13 +43,13 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Lainnya"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:152
+#: declarativeimports/calendar/qml/DaysCalendar.qml:147
 #, kde-format
 msgctxt "Reset calendar to today"
 msgid "Today"
 msgstr "Hari Ini"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:154
+#: declarativeimports/calendar/qml/DaysCalendar.qml:149
 #, kde-format
 msgid "Reset calendar to today"
 msgstr "Set ulang kalender ke hari ini"
@@ -593,18 +593,12 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Layanan (null) tidak absah, tidak bisa melakukan operasi apa pun."
 
-#: plasmaquick/appletquickitem.cpp:596
-#, fuzzy, kde-format
-#| msgid "Unknown"
-msgid "Unknown Applet"
-msgstr "Tidak diketahui"
-
-#: plasmaquick/appletquickitem.cpp:611
+#: plasmaquick/appletquickitem.cpp:600
 #, kde-format
 msgid "Error loading QML file: %1"
 msgstr "Error memuat file QML: %1"
 
-#: plasmaquick/appletquickitem.cpp:613
+#: plasmaquick/appletquickitem.cpp:602
 #, kde-format
 msgid "Error loading Applet: package inexistent. %1"
 msgstr "Error Memuat Applet: tak beradanya paket. %1"

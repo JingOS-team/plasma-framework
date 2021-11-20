@@ -12,6 +12,8 @@
 *.user
 .*.swp
 .swp.*
+*.pro
+.gitignore
 Doxyfile
 Makefile
 avail

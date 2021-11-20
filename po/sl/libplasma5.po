@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-framework package.
 #
 # Andrej Mernik <andrejm@ubuntu.si>, 2014, 2015, 2016.
-# Matjaž Jeran <matjaz.jeran@amis.net>, 2019, 2020, 2021.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-framework\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-20 02:29+0100\n"
-"PO-Revision-Date: 2021-01-04 08:34+0100\n"
+"POT-Creation-Date: 2020-12-19 02:18+0100\n"
+"PO-Revision-Date: 2020-11-30 08:50+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -44,13 +44,13 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Drugo"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:152
+#: declarativeimports/calendar/qml/DaysCalendar.qml:147
 #, kde-format
 msgctxt "Reset calendar to today"
 msgid "Today"
 msgstr "Danes"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:154
+#: declarativeimports/calendar/qml/DaysCalendar.qml:149
 #, kde-format
 msgid "Reset calendar to today"
 msgstr "Ponastavi koledar na današnji dan"
@@ -593,17 +593,12 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Neveljavna (nična) storitev, ki ne more izvajati opravil."
 
-#: plasmaquick/appletquickitem.cpp:596
-#, kde-format
-msgid "Unknown Applet"
-msgstr "Neznan applet"
-
-#: plasmaquick/appletquickitem.cpp:611
+#: plasmaquick/appletquickitem.cpp:600
 #, kde-format
 msgid "Error loading QML file: %1"
 msgstr "Napaka med nalaganjem datoteke QML: %1"
 
-#: plasmaquick/appletquickitem.cpp:613
+#: plasmaquick/appletquickitem.cpp:602
 #, kde-format
 msgid "Error loading Applet: package inexistent. %1"
 msgstr "Napaka med nalaganjem apleta: paket ne obstaja. %1"

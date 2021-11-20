@@ -1,0 +1,130 @@
+Source: plasma-framework
+Section: libs
+Priority: optional
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 3.0~),
+               debhelper (>= 11~),
+               doxygen,
+               extra-cmake-modules (>= 5.51.0~),
+               graphviz,
+               kirigami2-dev (>= 5.51.0~),
+               libegl1-mesa-dev,
+               libkf5activities-dev (>= 5.51.0~),
+               libkf5archive-dev (>= 5.51.0~),
+               libkf5codecs-dev (>= 5.7.0),
+               libkf5config-dev (>= 5.51.0~),
+               libkf5configwidgets-dev (>= 5.51.0~),
+               libkf5coreaddons-dev (>= 5.51.0~),
+               libkf5dbusaddons-dev (>= 5.51.0~),
+               libkf5declarative-dev (>= 5.51.0~),
+               libkf5doctools-dev (>= 5.51.0~),
+               libkf5globalaccel-dev (>= 5.51.0~),
+               libkf5guiaddons-dev (>= 5.51.0~),
+               libkf5i18n-dev (>= 5.51.0~),
+               libkf5iconthemes-dev (>= 5.51.0~),
+               libkf5idletime-dev (>= 5.7.0),
+               libkf5itemmodels-dev (>= 5.7.0),
+               libkf5kio-dev (>= 5.51.0~),
+               libkf5notifications-dev (>= 5.51.0~),
+               libkf5package-dev (>= 5.51.0~),
+               libkf5parts-dev (>= 5.51.0~),
+               libkf5service-dev (>= 5.51.0~),
+               libkf5solid-dev (>= 5.7.0),
+               libkf5su-dev (>= 5.7.0),
+               libkf5threadweaver-dev (>= 5.7.0),
+               libkf5wayland-dev (>= 4:5.51.0~) [linux-any],
+               libkf5widgetsaddons-dev (>= 5.51.0~),
+               libkf5windowsystem-dev (>= 5.51.0~),
+               libkf5xmlgui-dev (>= 5.51.0~),
+               libqt5sql5-sqlite,
+               libqt5svg5-dev (>= 5.8.0~),
+               libqt5x11extras5-dev (>= 5.4),
+               libsm-dev,
+               libx11-xcb-dev,
+               libxcb-composite0-dev,
+               libxcb-damage0-dev,
+               libxcb-shape0-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               qtbase5-dev (>= 5.8.0~),
+               qtdeclarative5-dev (>= 5.8.0~),
+               qtquickcontrols2-5-dev (>= 5.8.0~),
+               qtscript5-dev (>= 5.4),
+               qttools5-dev (>= 5.4),
+               qttools5-dev-tools (>= 5.4),
+               xauth,
+               xvfb
+Standards-Version: 4.1.4
+Homepage: https://projects.kde.org/projects/frameworks/plasma-framework
+Vcs-Git: https://invent.kde.org/neon/kde/plasma-framework.git
+Vcs-Browser: https://invent.kde.org/neon/kde/plasma-framework
+Maintainer: Neon CI <neon@kde.org>
+
+Package: libkf5plasma-dev
+Architecture: any
+Section: libdevel
+Depends: extra-cmake-modules (>= 5.51.0~),
+         libkf5package-dev (>= 5.51.0~),
+         libkf5plasma5 (= ${binary:Version}),
+         libkf5plasmaquick5 (= ${binary:Version}),
+         libkf5service-dev (>= 5.51.0~),
+         libkf5windowsystem-dev (>= 5.51.0~),
+         plasma-framework (= ${binary:Version}),
+         ${misc:Depends}
+Replaces: kapptemplate (<< 4:15.12.2-1~),
+          libkf5plasma-doc (<< 5.61.90-0),
+          plasma-framework (<= 5.9.0+git20150516.1328+15.04-0),
+          plasma-framework-dev (<< 5.23.0-2~)
+Breaks: kapptemplate (<< 4:15.12.2-1~),
+        libkf5plasma-doc (<< 5.61.90-0),
+        libkf5runner-dev (<< 5.51),
+        plasma-framework (<= 5.9.0+git20150516.1328+15.04-0),
+        plasma-framework-dev (<< 5.23.0-2~)
+Recommends: libkf5plasma-doc (= ${source:Version})
+Description: development files for plasma-framework
+ Plasma library and runtime components based upon KF5 and Qt 5.
+ .
+ Contains development files for plasma-framework.
+
+Package: libkf5plasma-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Plasma Runtime components (documentation)
+ Plasma library and runtime components based upon KF5 and Qt5.
+ .
+ This package contains the qch documentation files.
+Section: doc
+
+Package: libkf5plasma5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF5 and Qt5.
+Breaks: libkf5runner5 (<< 5.51), qml-module-org-kde-runnermodel (<< 5.42)
+
+Package: libkf5plasmaquick5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF5 and Qt 5.
+
+Package: plasma-framework
+Architecture: any
+Depends: qml-module-org-kde-kconfig (>= 5.51),
+         qml-module-org-kde-kquickcontrols (>= 5.51),
+         qml-module-org-kde-kquickcontrolsaddons (>= 5.51),
+         qml-module-qtqml-models2,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-controls2,
+         qml-module-qtquick-templates2,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: plasma-widgets-addons (<= 4:5.5~),
+        qml-module-org-kde-kirigami2 (<< 5.44)
+Replaces: plasma-widgets-addons (<= 4:5.5~),
+          qml-module-org-kde-kirigami2 (<< 5.42~)
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF5 and Qt 5.

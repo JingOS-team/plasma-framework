@@ -11,14 +11,14 @@
 # Vincent PINON <vpinon@kde.org>, 2014.
 # Maxime Corteel <mcorteel@gmail.com>, 2015.
 # Simon Depiets <sdepiets@gmail.com>, 2017, 2018, 2019.
-# Xavier Besnard <xavier.besnard@neuf.fr>, 2020, 2021.
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-20 02:29+0100\n"
-"PO-Revision-Date: 2021-01-13 18:46+0100\n"
+"POT-Creation-Date: 2020-12-19 02:18+0100\n"
+"PO-Revision-Date: 2020-11-07 09:21+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: FR\n"
 "Language: fr\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 20.08.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -55,13 +55,13 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Autre"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:152
+#: declarativeimports/calendar/qml/DaysCalendar.qml:147
 #, kde-format
 msgctxt "Reset calendar to today"
 msgid "Today"
 msgstr "Aujourd'hui"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:154
+#: declarativeimports/calendar/qml/DaysCalendar.qml:149
 #, kde-format
 msgid "Reset calendar to today"
 msgstr "Réinitialiser le calendrier à aujourd'hui"
@@ -346,7 +346,7 @@ msgstr "Fichier XML de configuration"
 #: plasma/packagestructure/plasmoidpackage.cpp:38
 #, kde-format
 msgid "Custom expander for compact applets"
-msgstr "Extenseur personnalisé pour les applets synthétiques"
+msgstr "Extenseur personnalisé pour les applets compactes"
 
 #: plasma/pluginloader.cpp:92
 #, kde-format
@@ -606,17 +606,12 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Service non valable (null), aucune opération ne peut être effectuée."
 
-#: plasmaquick/appletquickitem.cpp:596
-#, kde-format
-msgid "Unknown Applet"
-msgstr "Applet inconnue"
-
-#: plasmaquick/appletquickitem.cpp:611
+#: plasmaquick/appletquickitem.cpp:600
 #, kde-format
 msgid "Error loading QML file: %1"
 msgstr "Erreur du chargement du fichier QML : %1"
 
-#: plasmaquick/appletquickitem.cpp:613
+#: plasmaquick/appletquickitem.cpp:602
 #, kde-format
 msgid "Error loading Applet: package inexistent. %1"
 msgstr "Erreur du chargement de l'applet : paquet inexistant. %1"
@@ -759,7 +754,7 @@ msgstr "Interface de KRunner"
 #: plasmaquick/private/packages.cpp:61
 #, kde-format
 msgid "Main Script KRunner"
-msgstr "Script principal de KRunner"
+msgstr "Script principal de Krunner"
 
 #: plasmaquick/private/packages.cpp:63
 #, kde-format

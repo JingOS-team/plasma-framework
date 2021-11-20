@@ -3,7 +3,7 @@
     SPDX-FileCopyrightText: 2013 Sebastian Kügler <sebas@kde.org>
     SPDX-FileCopyrightText: 2014 Martin Gräßlin <mgraesslin@kde.org>
     SPDX-FileCopyrightText: 2014 Vishesh Handa <vhanda@kde.org>
-
+    SPDX-FileCopyrightText: 2021 Yang Guoxiang <yangguoxiang@jingos.com>
     SPDX-License-Identifier: GPL-2.0-or-later
 */
 
@@ -1432,7 +1432,7 @@ void Dialog::setDisplay(bool display)
     if (d->isDisplay != display) {
         d->setDisplay(display);
 
-        Q_EMIT displayChanged();
+        emit displayChanged();
     }
 }
 

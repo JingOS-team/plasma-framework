@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-framework package.
 #
-# Xəyyam Qocayev <xxmn77@gmail.com>, 2020, 2021.
+# Xəyyam Qocayev <xxmn77@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-framework\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-20 02:29+0100\n"
-"PO-Revision-Date: 2021-01-04 11:16+0400\n"
+"POT-Creation-Date: 2020-12-19 02:18+0100\n"
+"PO-Revision-Date: 2020-11-07 23:15+0400\n"
 "Last-Translator: Kheyyam Gojayev <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
 "Language: az\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 20.08.3\n"
 
 #: declarativeimports/calendar/eventdatadecorator.cpp:51
 #, kde-format
@@ -41,13 +41,13 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Digəri"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:152
+#: declarativeimports/calendar/qml/DaysCalendar.qml:147
 #, kde-format
 msgctxt "Reset calendar to today"
 msgid "Today"
 msgstr "Bugün"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:154
+#: declarativeimports/calendar/qml/DaysCalendar.qml:149
 #, kde-format
 msgid "Reset calendar to today"
 msgstr "Bugünkü tarixə keç"
@@ -591,17 +591,12 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Xidmətin istifadəsində xəta."
 
-#: plasmaquick/appletquickitem.cpp:596
-#, kde-format
-msgid "Unknown Applet"
-msgstr "Naməlum Qoşma"
-
-#: plasmaquick/appletquickitem.cpp:611
+#: plasmaquick/appletquickitem.cpp:600
 #, kde-format
 msgid "Error loading QML file: %1"
 msgstr "QML faylının yüklənməsi xətası: %1"
 
-#: plasmaquick/appletquickitem.cpp:613
+#: plasmaquick/appletquickitem.cpp:602
 #, kde-format
 msgid "Error loading Applet: package inexistent. %1"
 msgstr "Vidjetin yüklənməsində xəta: paket mövcud olmayan paket: %1"

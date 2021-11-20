@@ -1,20 +1,20 @@
 # Translation of libplasma5 to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2008, 2015, 2016, 2018, 2019, 2020, 2021.
+# Karl Ove Hufthammer <karl@huftis.org>, 2008, 2015, 2016, 2018, 2019, 2020.
 # Eirik U. Birkeland <eirbir@gmail.com>, 2008, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-20 02:29+0100\n"
-"PO-Revision-Date: 2021-01-04 21:04+0100\n"
+"POT-Creation-Date: 2020-12-15 02:16+0100\n"
+"PO-Revision-Date: 2020-11-09 22:03+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 20.08.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
@@ -45,13 +45,13 @@ msgctxt "Means 'Other calendar items'"
 msgid "Other"
 msgstr "Anna"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:152
+#: declarativeimports/calendar/qml/DaysCalendar.qml:147
 #, kde-format
 msgctxt "Reset calendar to today"
 msgid "Today"
 msgstr "I dag"
 
-#: declarativeimports/calendar/qml/DaysCalendar.qml:154
+#: declarativeimports/calendar/qml/DaysCalendar.qml:149
 #, kde-format
 msgid "Reset calendar to today"
 msgstr "Gå til i dag"
@@ -615,17 +615,12 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "Ugyldig teneste (null) kan ikkje utføra operasjonar."
 
-#: plasmaquick/appletquickitem.cpp:596
-#, kde-format
-msgid "Unknown Applet"
-msgstr "Ukjent element"
-
-#: plasmaquick/appletquickitem.cpp:611
+#: plasmaquick/appletquickitem.cpp:600
 #, kde-format
 msgid "Error loading QML file: %1"
 msgstr "Feil ved lasting av QML-fil: %1"
 
-#: plasmaquick/appletquickitem.cpp:613
+#: plasmaquick/appletquickitem.cpp:602
 #, kde-format
 msgid "Error loading Applet: package inexistent. %1"
 msgstr "Feil ved lasting av miniprogram: pakken finst ikkje. %1"
@@ -790,51 +785,51 @@ msgstr "Vindaugsbytar"
 msgid "Main Script for Window Switcher"
 msgstr "Hovudskript for vindaugsbytar"
 
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:605
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:609
 #, kde-format
 msgid "Plasma Package"
 msgstr "Plasma-pakke"
 
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:609
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:613
 #, kde-format
 msgid "Install"
 msgstr "Installer"
 
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:621
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:625
 #, kde-format
 msgid "Package Installation Failed"
 msgstr "Feil ved pakkeinstallering"
 
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:641
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:645
 #, kde-format
 msgid "The package you just dropped is invalid."
 msgstr "Pakken du sleppte er ugyldig."
 
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:650
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:714
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:654
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:718
 #, kde-format
 msgid "Widgets"
 msgstr "Skjermelement"
 
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:655
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:659
 #, kde-format
 msgctxt "Add widget"
 msgid "Add %1"
 msgstr "Legg til %1"
 
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:669
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:718
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:673
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:722
 #, kde-format
 msgctxt "Add icon widget"
 msgid "Add Icon"
 msgstr "Legg til ikon"
 
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:681
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:685
 #, kde-format
 msgid "Wallpaper"
 msgstr "Bakgrunnsbilete"
 
-#: scriptengines/qml/plasmoid/containmentinterface.cpp:691
+#: scriptengines/qml/plasmoid/containmentinterface.cpp:695
 #, kde-format
 msgctxt "Set wallpaper"
 msgid "Set %1"

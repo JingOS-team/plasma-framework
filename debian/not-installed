@@ -1,0 +1,3 @@
+# manpages are gzipped and generate a false positive
+usr/share/man/man1/plasmapkg2.1
+usr/share/man/*/man1/plasmapkg2.1

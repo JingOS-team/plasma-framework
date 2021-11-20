@@ -1,7 +1,7 @@
 /*
     SPDX-FileCopyrightText: 2011 Marco Martin <mart@kde.org>
     SPDX-FileCopyrightText: 2013 Sebastian Kügler <sebas@kde.org>
-
+    SPDX-FileCopyrightText: 2021 Yang Guoxiang <yangguoxiang@jingos.com>
     SPDX-License-Identifier: GPL-2.0-or-later
 */
 #ifndef DIALOG_PROXY_P

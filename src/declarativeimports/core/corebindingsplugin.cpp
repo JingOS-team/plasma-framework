@@ -3,7 +3,7 @@
     SPDX-FileCopyrightText: 2010 Ménard Alexis <menard@kde.org>
     SPDX-FileCopyrightText: 2010 Marco Martin <mart@kde.org>
     SPDX-FileCopyrightText: 2013 Sebastian Kügler <sebas@kde.org>
-    SPDX-FileCopyrightText: 2021 Jiashu Yu <yujiashu@jingos.com>
+
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
@@ -28,7 +28,6 @@
 #include "serviceoperationstatus.h"
 #include "colorscope.h"
 #include "quicktheme.h"
-#include "passwdtype.h"
 
 #include "tooltip.h"
 #include "units.h"
@@ -117,8 +116,6 @@ QT_WARNING_POP
     qmlRegisterType<IconItem>(uri, 2, 0, "IconItem");
 
     qmlRegisterType<Plasma::WindowThumbnail>(uri, 2, 0, "WindowThumbnail");
-    qmlRegisterType<PassWDType>(uri, 2, 0, "PassWDType");
-
 }
 
 

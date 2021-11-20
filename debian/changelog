@@ -1,0 +1,721 @@
+plasma-framework (5.78.0) focal; urgency=medium
+
+  * Format version
+
+ -- JingOS CI <jingos@jingos.com>  Sat, 20 Nov 2021 17:57:41 +0800
+
+plasma-framework (5.77.0-0neon) focal; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 12 Dec 2020 14:08:55 +0000
+
+plasma-framework (5.76.0-0neon) focal; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 19 Nov 2020 11:33:28 +0000
+
+plasma-framework (5.75.0-0neon) focal; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 09 Oct 2020 13:43:53 +0000
+
+plasma-framework (5.74.0-0neon) focal; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 10 Sep 2020 13:34:36 +0000
+
+plasma-framework (5.73.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 17 Aug 2020 19:09:48 +0000
+
+plasma-framework (5.72.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 11 Jul 2020 15:48:30 +0000
+
+plasma-framework (5.71.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 12 Jun 2020 18:58:16 +0000
+
+plasma-framework (5.70.1-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 20 May 2020 07:30:47 +0000
+
+plasma-framework (5.70.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 May 2020 15:43:46 +0000
+
+plasma-framework (5.69.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 11 Apr 2020 18:22:02 +0000
+
+plasma-framework (5.68.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 13 Mar 2020 13:23:37 +0000
+
+plasma-framework (5.67.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 07 Feb 2020 21:07:12 +0000
+
+plasma-framework (5.66.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 10 Jan 2020 13:26:22 +0000
+
+plasma-framework (5.65.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 13 Dec 2019 17:38:29 +0000
+
+plasma-framework (5.64.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Nov 2019 14:04:10 +0000
+
+plasma-framework (5.63.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 11 Oct 2019 21:24:43 +0000
+
+plasma-framework (5.62.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 16 Sep 2019 11:22:58 +0000
+
+plasma-framework (5.61.90-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 11 Aug 2019 18:56:12 +0000
+
+plasma-framework (5.60.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 13 Jul 2019 15:50:01 +0000
+
+plasma-framework (5.59.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 07 Jun 2019 18:13:55 +0000
+
+plasma-framework (5.58.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 10 May 2019 13:18:13 +0000
+
+plasma-framework (5.57.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 12 Apr 2019 08:46:47 +0000
+
+plasma-framework (5.56.1-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 13 Mar 2019 14:07:55 +0000
+
+plasma-framework (5.56.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 09 Mar 2019 16:01:43 +0000
+
+plasma-framework (5.55.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 10 Feb 2019 22:38:00 +0000
+
+plasma-framework (5.54.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 11 Jan 2019 15:42:52 +0000
+
+plasma-framework (5.53.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Dec 2018 10:44:12 +0000
+
+plasma-framework (5.52.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sat, 10 Nov 2018 21:36:47 +0000
+
+plasma-framework (5.51.0-1) unstable; urgency=medium
+
+  * New revision
+  * Drop dbgsym migration rule
+  * Inject "current" version dependency in the symbols files
+  * New upstream release (5.50.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.50)
+  * New upstream release (5.51.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.51)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Nov 2018 17:17:33 +0100
+
+plasma-framework (5.49.0-1) unstable; urgency=medium
+
+  * New upstream release (5.48.0).
+  * Update symbols files from buildds logs (5.47.0-1).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.49.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.49)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Aug 2018 16:19:14 +0200
+
+plasma-framework (5.47.0-1) unstable; urgency=medium
+
+  * New upstream release (5.47.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.47)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Jun 2018 12:10:59 +0200
+
+plasma-framework (5.46.0-1) unstable; urgency=medium
+
+  * New upstream release (5.46.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.1.4.
+  * Update symbols files.
+  * testsuite: Run tests one at the time
+  * testsuite: Ignore stderr
+  * Bump group breaks (5.46)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 May 2018 22:15:51 +0200
+
+plasma-framework (5.45.0-1) unstable; urgency=medium
+
+  * New upstream release (5.45.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.45)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 May 2018 08:11:11 +0200
+
+plasma-framework (5.44.0-1) sid; urgency=medium
+
+  * New upstream release (5.44.0).
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.44)
+  * Update build-deps and deps with the info from cmake
+  * Release to sid
+
+  [ Pino Toscano ]
+  * Drop the transitional plasma-framework-dev, as it is no more needed now.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Mar 2018 14:41:31 +0100
+
+plasma-framework (5.43.0-1) experimental; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.43.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.43)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Feb 2018 11:44:22 +0100
+
+plasma-framework (5.42.0-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * Use the salsa canonical urls
+
+  [ Pino Toscano ]
+  * Limit the libkf5wayland-dev build dependency as linux-any, as it is
+    available only on Linux architectures.
+  * Remove extra trailing whitespaces in changelog.
+  * Remove duplicated/extra Priority field for plasma-framework-dev.
+  * Use https for Format in copyright.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 21 Feb 2018 23:20:57 +0100
+
+plasma-framework (5.42.0-2) sid; urgency=medium
+
+  * New revision
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 10 Feb 2018 11:29:23 +0100
+
+plasma-framework (5.42.0-1) experimental; urgency=medium
+
+  * New upstream release (5.42.0).
+  * Add link options as-needed
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+  * Update install files
+  * Add missing breaks replaces for qml-module-org-kde-kirigami2
+  * Bump group breaks (5.42)
+  * Bump Standards-Version to 4.1.3.
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 02 Feb 2018 12:06:13 +0100
+
+plasma-framework (5.41.0-1) experimental; urgency=medium
+
+  * New upstream release (5.38.0). (Closes: 875971)
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.41.0).
+  * Bump Standards-Version to 4.1.2.
+  * Update build-deps and deps with the info from cmake
+  * Add missing libkf5wayland-dev build dependency and bump doctools
+  * Update symbols files
+  * Update symbols files
+  * Add missing runtime dependency libkf5windowsystem-dev.
+    Thanks to Adrian Bunk for reporting (Closes: 877187)
+  * Bump group breaks (5.41)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:43:22 -0300
+
+plasma-framework (5.37.0-2) sid; urgency=medium
+
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:59:08 +0200
+
+plasma-framework (5.37.0-1) experimental; urgency=medium
+
+  * New upstream release (5.37.0).
+    + Fix build with cmake 3.8 (3ce913b3f997e61358c7384987424225f03964d3)
+      (Closes: #871129) Thanks to Lucas Nussbaum for the report
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.37)
+  * Add a libkf5plasma-doc package for the qch files
+  * Bump Standards-Version to 4.0.1.
+  * Set Priority to optional
+  * Set section for the doc package
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Aug 2017 10:44:00 +0200
+
+plasma-framework (5.36.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.35.0).
+    + Support non-square icons (Closes: 863417)
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.35)
+  * Drop upstream patches
+  * Update symbols files.
+  * watch: Use https uris
+  * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+
+  [ Raymond Wooninck ]
+  * also include signing-key
+  * Add signing key
+
+  [ Jonathan Riddell ]
+  * update .install
+  * new dep on qml-module-org-kde-kconfig
+  * install qml-module-qtquick-templates2
+  * more qml deps
+  * ECMConfig.cmake
+
+  [ Harald Sitter ]
+  * start openbox for dialogstatetest
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:42:48 +0200
+
+plasma-framework (5.28.0-2) unstable; urgency=medium
+
+  * Change plasma-framework-dev to arch: any.
+    Thanks to Helmut Grohne for reporting (Closes: 854063)
+  * Pick "Fix logic for arrow handling in RTL locales" (db15022)
+    Add the upstream patch as:
+     Fix-logic-for-arrow-handling-in-RTL-locales.patch
+    This fixes KDE#373749
+  * Pick "Emit toolTipMainTextChanged if it changes in response to a title change" (17f5a30)
+    The fallback for toolTipMainText is showing the applet title.
+    When the applet title changes, it may result in a change of
+    toolTipMainText.
+    Add the upstream patch as:
+     Emit-toolTipMainTextChanged-if-it-changes-in-response-to-.patch
+  * Pick "consider an empty panel always "applets loaded"" (6ae3a07)
+    This fixes panels sometimes not showing up when reconnecting screens.
+    Add upstream patch as:
+     consider-an-empty-panel-always-applets-loaded.patch
+    Related to KDE#373836
+  * Pick "Fix #374127 misplacement of popups from dock wins" (6aedda9)
+    Fix for "If a Dock window uses a mask then the popups occured from it
+    are placed far from the item that triggered them."
+    Add upstream patch as:
+     Fix-374127-misplacement-of-popups-from-dock-wins.patch
+    This fixes KDE#374127
+  * Pick "portait prop is not relevant when there is no text" (12a4709)
+    This fixes a binding loop on this property when there is no label.
+    Add upstream patch as:
+     portait-prop-is-not-relevant-when-there-is-no-text.patch
+    This fixes KDE#374815
+  * Pick "correctly forward status from applets to containment" (47ec9b8)
+    Add upstream patch as:
+     correctly-forward-status-from-applets-to-containment.patch
+    This fixes KDE#372062
+  * Pick "it must also be possible for the status to be decreased again" (46c87d5)
+    This fixes the autohide panel being broken the first time an applet like
+    kickoff opens. when it closes again, the status has to be decreased
+    again.
+    Add upstream patch as:
+     it-must-also-be-possible-for-the-status-to-be-decreased-a.patch
+  * Pick "set default hints when repr doesn't export Layout.*" (b99a87a)
+    Add upstream patch as:
+     set-default-hints-when-repr-doesn-t-export-Layout.patch
+    This fixes KDE#377153
+  * Add "Ref/deref DataEngines even if the metadata is invalid" (586ed85)
+    Just because the metadata is invalid doesn't mean the DataEngine
+    actually failed to load, we're still returning a valid object, and as
+    seen with the MPris DataEngine bug. It's important that we still release
+    it properly.
+    Add upstream patch as:
+     Ref-deref-DataEngines-even-if-the-metadata-is-invalid.patch
+    This is related to KDE#374531
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Apr 2017 17:14:51 +0200
+
+plasma-framework (5.28.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.27.0-1).
+  * Update symbols files
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:07:29 +0100
+
+plasma-framework (5.27.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:09:11 +0200
+
+plasma-framework (5.26.0-2) unstable; urgency=medium
+
+  * Add plasma-framework dependency on the -dev package
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Oct 2016 14:19:56 +0200
+
+plasma-framework (5.26.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files with the buildds logs.
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+  * Replace dbus-launch with dbus-run-session in tests
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:03:19 +0200
+
+plasma-framework (5.25.0-1) unstable; urgency=medium
+
+  [ Harald Sitter ]
+  * Rename -dev package to align with the cmake package name for
+    greater discoverability and consistency across frameworks.
+    Add a transitional package to help with the name transition.
+  * install new files
+
+  [ Automatic packaging ]
+  * Update symbols file
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Install localized manpages.
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:50:53 +0200
+
+plasma-framework (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files with the buildds results
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 16:30:38 +0200
+
+plasma-framework (5.22.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Bump kapptemplate breaks/replaces, the conflicting file is going to be
+    removed from kapptemplate in the next upload. (Closes: #816528) Thanks to
+    Andreas Beckmann for the report.
+  * Update install files
+  * Update testsuite scripts
+  * Update copyright information
+  * Update acc test script
+  * testsuite: Missing XDG_DATA_DIRS, use breeze by default
+  * Add new patch: upstream_fix_iconitem_test.patch
+  * testsuite: add hicolor icon theme as a dependency
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+  * Update symbols files (private class was wrongly exported)
+  * Update symbols files
+  * Refresh patches
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 May 2016 15:28:35 +0200
+
+plasma-framework (5.19.0-1) experimental; urgency=medium
+
+  * New upstream release (5.19.0).
+  * (Experimental specific) Add qt5-qmltooling-plugins as a build-dep,
+    missing dependency of qtdeclarative5-dev
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:44 +0100
+
+plasma-framework (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.17.0).
+  * Update symbols files from buildds logs (5.16.0-1).
+  * Update install files.
+  * Update symbols files.
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:46 +0100
+
+plasma-framework (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+  * Update symbols files from buildds logs (5.15.0-1).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:48 +0100
+
+plasma-framework (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+  * Update symbols files from buildds logs (5.14.0-1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:58 +0200
+
+plasma-framework (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+  * Update symbols files.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:50:19 +0200
+
+plasma-framework (5.13.0-2) unstable; urgency=medium
+
+  * Add libegl1-mesa-dev build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 20:49:51 +0200
+
+plasma-framework (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Sep 2015 08:45:57 +0200
+
+plasma-framework (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:44:15 +0200
+
+plasma-framework (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.11.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 17:27:27 +0200
+
+plasma-framework (5.10.0-0ubuntu1) wily; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.0).
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:39:21 +0200
+
+plasma-framework (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:33 +0200
+
+plasma-framework (5.9.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:33:19 +0200
+
+plasma-framework (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:39:04 +0100
+
+plasma-framework (5.8.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:43:50 +0100
+
+plasma-framework (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:54 +0100
+
+plasma-framework (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:19:10 +0100
+
+plasma-framework (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+  * Update install files.
+  * Update watch file.
+  * Add basic autopkgtests support.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Feb 2015 12:43:28 +0100
+
+plasma-framework (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 19:49:31 +0100
+
+plasma-framework (5.5.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 12:18:02 +0100
+
+plasma-framework (5.4.0-0ubuntu1) vivid; urgency=medium
+
+  [ Scarlett Clark ]
+  * Fix symbols
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Nov 2014 18:40:15 +0100
+
+plasma-framework (5.4.0-0ubuntu1~ubuntu15.04~ppa2) vivid; urgency=medium
+
+  * Batchpatch symbols. Removed Plasma::Applet::destroyedChanged(bool)
+    which was inserted by the CI system and should not be in this release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 05 Nov 2014 23:37:27 +0000
+
+plasma-framework (5.4.0-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Nov 2014 18:40:15 +0100
+
+plasma-framework (5.3.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:28:42 +0100
+
+plasma-framework (5.2.0-0ubuntu1) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+  * Use pkg-kde-tools version 3 scripts
+
+  [ Scarlett Clark ]
+  * Move copyright extra details to comment to silence
+    space-in-std-shortname-in-dep5-copyright lintian error.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:46:53 +0200
+
+plasma-framework (5.1.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Patch symbols with batchpatch.
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:16:03 +0200
+
+plasma-framework (5.0.0-0ubuntu2) utopic; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
+
+  [ Harald Sitter ]
+  * plasma-framework-dev publicly declares kf5service as a link dependency, so
+    make the package depend on libkf5service-dev to reflect this
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 22 Jul 2014 14:57:43 +0200
+
+plasma-framework (5.0.0-0ubuntu1) utopic; urgency=medium
+
+  * Initial stable upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 16 Jul 2014 14:35:36 +0200
